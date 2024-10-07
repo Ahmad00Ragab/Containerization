@@ -16,4 +16,22 @@ it is a containerization platform that provides you with tools to create, deploy
 what is Docker orchestration tool?
 it is a tool like kubernates that handle multiple containers and the communications between them.
 
+what is docker volume?
+it is a persistent storage location in which the information about contaiers are stored and shared between 
+contaiers and can be accessible after the container stopped or deleted
 
+what is Docker Networks?
+Docker networks enable communication between containers. They allow containers to interact with each other and the outside world.
+(e.g overlay, bridge)
+
+what is a docker registry?
+it is a place where we push or pull docker images from it, it could be public or private.
+
+what is the tag of the docker image?
+it is the version of image 
+
+what are the types of networks?
+1. bridge(default) : containers can communicate with each other on the same bridge network
+2. host: allows the containers to share the host's networking namespace
+3. none: disable networking between containers
+4. overlay: used in docker swarm for multi-host communication
