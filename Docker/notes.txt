@@ -1,0 +1,19 @@
+what is the meaning of containerization?
+it is a lightweight form of vitualization that packages the application and its dependencies together into
+an a single container. unlike VMs the underlying hardware stack , the containers virtualize the os and isolate 
+the applications at the process level.
+
+what is a container?
+it is a standardize unit of software that package up the code and its dependencies so the application run reliably 
+in different computing environment. Container virtualize the OS not the hardware as in VMs.
+
+what is Container Image?
+it is the blueprint or the template for creating a container.
+
+what is a Docker?
+it is a containerization platform that provides you with tools to create, deploy and manage containers.
+
+what is Docker orchestration tool?
+it is a tool like kubernates that handle multiple containers and the communications between them.
+
+
