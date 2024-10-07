@@ -1,11 +1,10 @@
 # Use a base image with JDK 17
-FROM openjdk:17-jdk-alpine
+FROM openjdk:22-jdk-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
 
 # Copy the built application JAR into the container
-# Update this line if your JAR name is different
 COPY target/Docker-1.0-SNAPSHOT.jar /app/myapp.jar 
 
 # Expose the application's port
